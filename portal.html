@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Notícias</title>
-    <link rel="stylesheet" href="./style/style-portal.css"
+    <link rel="stylesheet" href="./style/style-portal.css">
 </head>
 <body>
     <h1>Portal de Notícias</h1>
     <header><nav>
         <ul>
-            <li>Esportes</li>
-            <li>Economia</li>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Esportes</li></a>
         </ul>
     </nav></header>
-    <section>
+    <section id="sport">
         <h2>Esportes</h2>
         <article>
             <img src="./media/esportes.jpeg" class="imagem-reduzida" alt="Imagem de esportes"><br>
@@ -39,8 +39,30 @@
             <a href="#">Leia mais</a>  
         </article>
     </section>
-       
-    
-    
+    <section id="economy">
+        <h2>Economia</h2>
+        <article>
+            <img src="./media/economia.png" class="imagem-reduzida" alt="principais notícias sobre a economia"><br>
+            <header><time datetime="2025-03-09T08:00">09/03/2025 às 12h00</time>
+            </header>
+            <h3>Economia dos Estados Unidos já dá sinais de melhora.</h3>
+            <p>
+                A economia dos Estados Unidos, que vinha em queda nos últimos meses, já dá sinais de melhora.<br>
+                O índice Dow Jones, que mede o desempenho das ações das 30 maiores empresas americanas, subiu 2% na última semana.
+            </p>
+            <a href="#">Leia mais</a>  
+        </article>
+        <article>
+            <img src="./media/economia eua e ue.png" class="imagem-reduzida" alt="economia europeia estagnada e a americana começa a crescer"><br>
+            <header><time datetime="2025-03-09T13:00">09/03/2025 às 12h30</time>
+            </header>
+            <h3>Economia Europeia assiste a America se recuperar rapidamente.</h3>
+            <p>
+                A economia europeia, que vinha em crescimento nos últimos anos, estagnou nos últimos meses.<br>
+                Enquanto isso, a economia americana, que vinha em queda, começa a se recuperar rapidamente.
+            </p>
+            <a href="#">Leia mais</a>  
+        </article>
+    </section>
 </body>
 </html>

@@ -1,7 +1,12 @@
-body {
-
-    .imagem-reduzida {
-        width: 400px;
+.imagem-reduzida {
+    width: 400px;
     }
 
-}
+
+#sport h2 {
+    color: green;
+    }
+
+#economy h2 {
+    color: gold;
+    }
