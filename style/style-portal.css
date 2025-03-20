@@ -1,12 +1,120 @@
-.imagem-reduzida {
-    width: 400px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     }
 
-
-#sport h2 {
-    color: green;
+body > header {
+    background-color:#2f3640;
+    padding: 16px 0;
+    color: rgb(150, 252, 25);
     }
 
-#economy h2 {
-    color: gold;
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    }
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+    }
+
+header li a {
+   color: rgb(136, 250, 5);
+   text-decoration: none;
+    }
+header li a:hover {
+    color: white;
+    }
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    }
+
+.articles {
+    display: flex;
+    flex-wrap: wrap; /* Faz com que os artigos sejam exibidos em várias linhas */
+    justify-content: space-between; /* Distribui os artigos uniformemente */
+    }
+.articles article img {
+    width: 100%; /* Faz com que todas as imagens ocupem toda a largura do contêiner */
+    height: 180px; /* Define uma altura fixa para uniformidade */
+    object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
+    }
+
+.articles article {
+    width: 30%; /* Define a largura de cada artigo */
+    }
+
+section {
+    padding: 16px 0;
+    }
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+    }
+
+.articles article h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+.articles article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    }
+
+.articles article a:hover {
+    background-color: darkblue;
+    text-decoration: underline;
+    }
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.articles article h3 {
+    font-size: 24px;
+    }
+
+section h2 {
+    font-size: 32px;
+    }
+
+#sport {
+    background-color: rgba(0, 255, 0, 0.1);
+    }
+
+#sport .articles a {
+    background-color: #009432;
+    }
+
+#sport .articles article a:hover {
+    background-color: #025111;
+    }
+
+#economy {
+    background-color: rgb(240, 240, 167)
+    }
+
+#economy .articles a {
+    background-color: #a8890d;
+    }
+
+#economy .articles article a:hover {
+    background-color: #7a6f0b;
     }
