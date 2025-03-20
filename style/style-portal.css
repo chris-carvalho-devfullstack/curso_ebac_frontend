@@ -118,3 +118,27 @@ section h2 {
 #economy .articles article a:hover {
     background-color: #7a6f0b;
     }
+
+#tecnologia {
+    background-color: rgba(0, 0, 255, 0.1);
+    }
+
+#tecnologia .articles a {
+    background-color: #3498db;
+    }
+
+#tecnologia .articles article a:hover {
+    background-color: #1f618d;
+    }
+
+#entretenimento {
+    background-color: rgba(255, 0, 0, 0.1);
+    }
+
+#entretenimento .articles a {
+    background-color: #e74c3c;
+    }
+
+#entretenimento .articles article a:hover {
+    background-color: #c0392b;
+    }
